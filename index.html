@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Scope/DOM Assignment</title>
+	<link href='index.css' rel='stylesheet' type='text/css'> 
+</head>
+<body>
+	<input id='btn' type='button' value='button'/>
+	<p id='text'></p>
+	<input id='btn2' type='button' value='button2'/>
+	<div class='pressed'> 
+	<input id='pressme' type='text' onkeypress = 'PressedKey()' />
+ 	<h1 id='demo'></h1>
+ 	</div>
+ 	<h1 id='noHoverZone'>Don't Hover Over Me!</h1><br>
+ 	<hr> 
+ 	
+ 	<form id='form' name='myForm' action='' method='post' onsubmit = 'return mySolution(event)'>
+ 	<h1>Log In Here</h1>
+ 	<for label='username'>Username</for>
+ 	<input id='username' type='text' required /><br> 
+ 	<for label='password'>Password</for>	
+ 	<input id='password' type='password' required /><br>
+ 	<for label='email'>Email Address</for>
+	<input id='email' type='text'/><br> 
+	<input id='submitBtn' type='submit' /> 
+ 	</form>
+ 	<h1 id='validateMe'></h1>
+<script src='index.js'></script>
+</body>
+</html>
